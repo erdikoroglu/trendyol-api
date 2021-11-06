@@ -1,0 +1,42 @@
+{
+    "name": "boolxy/trendyol",
+    "description": "The easiest way for using Trendyol API services in PHP",
+    "keywords": [
+        "trendyol",
+        "trendyol-api-client",
+        "trendyol-api-services",
+        "php"
+    ],
+    "type": "library",
+    "require": {
+        "ext-json": "*",
+        "php": "^7.4 || ^8",
+    },
+    "require-dev": {
+        "ext-mbstring": "*",
+        "phpunit/phpunit": "^9.0",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sezai Ozarslan",
+            "email": "sezai.ozarslan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Boolxy\\Trendyol\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Boolxy\\Trendyol\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "check": "vendor/bin/phpcs -p --standard=PSR2 --colors --runtime-set ignore_warnings_on_exit 1 --runtime-set ignore_errors_on_exit 1 src tests",
+        "fix": "vendor/bin/phpcbf -p --standard=PSR2 --colors --runtime-set ignore_warnings_on_exit 1 --runtime-set ignore_errors_on_exit 1 src tests"
+    }
+}
