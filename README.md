@@ -12,7 +12,7 @@ https://github.com/boolxy/trendyol kütüphanesi laravel 8 güncellemesi
 This package can be installed via Composer:
 
 ```bash
-composer require erdikoroglu/trendyol
+composer require erdikoroglu/trendyol-api
 ```
 
 ## Usage
