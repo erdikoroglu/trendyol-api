@@ -10,7 +10,7 @@
     "type": "library",
     "require": {
         "ext-json": "*",
-        "php": "^7.4 || ^8",
+        "php": "^7.4 || ^8"
     },
     "require-dev": {
         "ext-mbstring": "*",
