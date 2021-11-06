@@ -1,5 +1,5 @@
 {
-    "name": "boolxy/trendyol",
+    "name": "erdikoroglu/trendyol-api",
     "description": "The easiest way for using Trendyol API services in PHP",
     "keywords": [
         "trendyol",
@@ -20,8 +20,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Sezai Ozarslan",
-            "email": "sezai.ozarslan@gmail.com"
+            "name": "Erdi KOROGLU",
+            "email": "erdikoroglu34@gmail.com"
         }
     ],
     "autoload": {
